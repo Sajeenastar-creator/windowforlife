@@ -1,0 +1,137 @@
+body{
+	font-family: arial, sans-serif;
+	line-height: 1.4;
+	color: white;
+	overflow-x: auto;
+}
+.text-primary {
+	color: blue;
+}
+
+
+#navbar {
+	display: flex;  
+	justify-content: space-between;
+	background: #333;
+	color: white;
+	padding: 24px;
+	position: sticky;
+	top: 0;z-index: 1;
+	border-bottom: 3px solid blue;
+
+}
+
+#navbar ul{
+	display: flex;
+	align-items: center;
+	list-style: none;
+}
+#navbar h2 a{
+	color: white;
+	text-decoration: none;
+}
+
+
+#navbar li a{
+	text-decoration: none;
+	color: white;
+	padding: 16px;
+	font-size: 24px
+	margin: 0 8px;
+
+}
+#navbar li a:hover{
+	background-color: blue; 
+}
+
+#showcase{
+	background: url(../img/g.jpg) no-repeat center center/cover;
+	height: 600px;
+	width: 1500px;
+	
+}
+.text-primary=h1{
+	color: yellow;
+}
+
+#showcase{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+}
+
+ .showcase h1{
+ 	font-size: 60px;
+ }
+ #showcase a{
+ 	color: gray;
+ }
+
+ .btn:hover{
+ 	background: blue;
+ 	color: white;
+ }
+
+.btn{
+	display: inline-block;
+	border: 1px solid darkblue;
+	text-decoration: none;
+	padding: 10px 30px;
+	font-weight: bold;
+
+}
+
+#about{
+	padding: 5rem 0;
+}
+
+#about h2{
+	text-align: center;
+	font-size: 80px;
+	margin-bottom: 80px;
+}
+#about h3{
+	font-size: 60px;
+	margin: 16px;
+}
+#about p. lead{
+	margin-bottom: 16px;
+}
+
+#about .about-content{
+	display: flex;
+}
+#about .about-text,
+#about .about-image{
+	flex: 1;
+}
+
+#about .about-text{
+	text-align: center;
+}
+#about .about-image img{
+	display: block;
+	margin-left: auto;
+	width: 75%;
+	border-radius: 40%;
+	margin-top: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
